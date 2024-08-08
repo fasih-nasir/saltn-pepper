@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fasih-Nasir</title>
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- Font-Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+  <!--  -->
+</head>
+
+<body>
+  <!-- navbar Start -->
+  <nav class="navbar navbar-expand-lg" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo'.PNG" class="img-fluid" alt=""></a>
+      <button class="btn" type="button" data-bs-toggle="offcanvas" id="bi" data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars" id="fw"></i></button>
+      <div class="offcanvas offcanvas-end bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+              class="fa-solid fa-x"></i></button>
+          <!-- <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5> -->
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">publication</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">feedback</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">publication</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">feedback</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn" type="submit" id="btn-1">get a franchise</button>
+          <button class="btn" type="submit" id="btn-2">order online <i class="fa fa-right-arrow"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar End -->
+  <!-- Carousel Start -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="img/car1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/car2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/car3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel End -->
+  <!-- section 1 Start -->
+  <div class="container-fluid" id="about">
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6" id="col-1">
+        <h1>Welcome to Salt'n Pepper
+          Restaurants! Our Brands</h1>
+        <p>Please click our brands below for further information, reservations or to order online!</p>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6" id="col-2">
+        <img src="img/about-img1.webp" class="img-fluid" alt="">
+        <button class="btn" id="ab-btn">Order Now</button>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6" id="col-2">
+        <img src="img/about-img2.webp" class="img-fluid" alt="">
+        <button class="btn" id="ab-btn">Order Now</button>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6" id="col-2">
+        <img src="img/about-img3.webp" class="img-fluid" alt="">
+        <button class="btn" id="ab-btn">Order Now</button>
+      </div>
+
+
+
+    </div>
+  </div>
+  <!-- section 2 end -->
+  <!-- Franchise start -->
+  <div class="container-fluid" id="test">
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-8" id="col-1">
+        <h1>Salt'n Pepper<br>Restaurant Franchises</h1>
+        <p>Each of our franchises are individually managed. For further details, kindly contact them directly.
+
+        </p>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5" id="col-4">
+        <p id="p1">ISLAMABAD</p>
+        <H1 id="h1">Salt'n Pepper Restaurant</H1>
+        <P id="p2">Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</P>
+        <P id="p2">Ph: 051-2604904-6</P>
+        <button class="btn" id="ab-btn">Get Direction</button>
+      </div>
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
+        <img src="img/res1.webp" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center flex-row-reverse" id="col-3">
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
+        <p id="p1">FAISALABAD</p>
+        <H1 id="h1">Salt'n Pepper Restaurant</H1>
+        <P id="p2">4-Kohinoor City, Faisalabad</P>
+        <P id="p2">Ph: 051-2604904-6</P>
+        <button class="btn" id="ab-btn">Get Direction</button>
+      </div>
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
+        <img src="img/res2.webp" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
+        <p id="p1">BAHAWALPUR</p>
+        <H1 id="h1">Salt'n Pepper Restaurant</H1>
+        <P id="p2">D.C Chowk, opposite Commissioner House, Bahawalpur</P>
+        <P id="p2">Ph: 051-2604904-6</P>
+        <button class="btn" id="ab-btn">Get Direction</button>
+      </div>
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
+        <img src="img/res3.webp" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- Franchise end -->
+  <!-- express Franchise start -->
+  <div class="container-fluid" id="contact">
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6" id="fr">
+        <h2>Salt'n Pepper</h2>
+        <h1>Express Franchises</h1>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">PACKAGES MALL</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">EMPORIUM MALL</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor2.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">GUJRANWALA</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor4.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">PACKAGES MALL</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor5.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">EMPORIUM MALL</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor6.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">GUJRANWALA</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor7.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">PACKAGES MALL</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor8.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">EMPORIUM MALL</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5" id="fran">
+        <div class="card">
+          <img src="img/floor9.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" id="p1">GUJRANWALA</h6>
+            <h4 class="card-text">Salt'n Pepper Express</h4>
+            <p>First Floor Packages Mall</p>
+            <p>Ph: 0333-0310534</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- express Franchise start -->
+  <!-- village start-->
+  <div class="container-fluid" id="village">
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-xxl-6" id="col-5">
+        <h1>Salt Pepper</h1>
+        <h1>Villafe franchise</h1>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-9">
+        <img src="img/village.webp.webp" class="img-fluid" alt="">
+      </div>
+      <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-9" id="col-7">
+        <p id="p1">
+          GUJRANWALA
+        </p>
+        <h2>Salt'n Pepper Village</h2>
+        <p>Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt </p>
+        <p>Ph: 055-3884500 l ,055-3880400</p>
+      </div>
+    </div>
+  </div>
+  <!-- villag end -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <img src="img/logo'.PNG" class="img-fluid" alt="">
+          <p>
+            The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic
+            and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From
+            family occasions to business dinner and moments of the heart, this place is where unforgettable memories are
+            made.
+          </p>
+        </div>
+        <div class="col-2 ">
+          <h3>Portfolio</h3>
+
+          <p>home</p>
+          <p>about</p>
+          <p>contact</p>
+          <p>feedback</p>
+
+        </div>
+        <div class="col-3 ">
+          <h3>Portfolio</h3>
+
+          
+          <p>  +92 42 358 509 31 (Head Office)</p>
+          <p>+92 42 358 509 30 (Head Office)</p>
+          <p>+92 42 358 509 30 (Head Office)</p>
+          <p>+92 42 358 509 30 (Head Office)</p>
+          <p>
+            23-Usman Block, New GardenTown, Lahore, Pakistan
+          </p>
+
+        </div>
+        <div class="col-2 ">
+          <h3>Follow Us</h3>
+          <p class="fpo">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </p>
+          <p><img src="img/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp" class="img-fluid" alt=""></p>
+          <p><img src="img/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp" class="img-fluid" alt=""></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
